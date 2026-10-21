@@ -1,5 +1,8 @@
 {
 	"name": "auto-classifier",
+	"engines": {
+	  "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
+	},
 	"version": "1.1.1",
 	"description": "This plugin automatically classify tag from your notes using ChatGPT API. It analyze your note (It can be title, frontmatter, content or selected area) and automatically insert tag where you set.",
 	"main": "main.js",
